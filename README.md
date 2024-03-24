@@ -4,7 +4,7 @@ The official PyTorch implementation of "A deep learning method for cultivated la
 If your images and samples are unsegmented, then put the entire image and samples in the:  
 `<ImageDataset/data>`  
 and   
-`python sample_process.py` 
+`python sample_process.py`   
 **python sample_process.py** can segment the whole image and boundary/region samples into sample tiles 
-and calculate the distance samples
+and calculate the distance samples  
 Note:Please check the path **python sample_process.py**.
