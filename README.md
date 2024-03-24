@@ -14,13 +14,20 @@ Note:Please check the path **python sample_process.py**.
 
 
 ## Requirements
-`PyTorch<br>  
-TensorboardX<br>  
-GDAL  <br>
-OpenCV <br> 
-PIL  <br>
-numpy  <br>
-tqdm  <br>
+`PyTorch  
+
+TensorboardX  
+
+GDAL  
+
+OpenCV   
+
+PIL  
+
+numpy  
+
+tqdm  
+
 scikit-learn`  <br>
 
 ## run the model
@@ -28,7 +35,8 @@ The code is tested under a Linux desktop with torch 1.2.0 and Python 3.6 <br>
 Train model:<br>
 `python train.py`<br>
 prediction:<br>
-`python predict_boundary.py<br>
+`python predict_boundary.py  
+
 python predict_region.py`<br>
 
 ## Pretrained weight
