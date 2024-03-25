@@ -1,0 +1,75 @@
+********
+epoch:1    time:1855
+train_loss:9.23746220338416
+********
+epoch:2    time:3700
+train_loss:8.750022864115813
+********
+epoch:3    time:5546
+train_loss:8.688110491727357
+********
+epoch:4    time:7393
+train_loss:8.657146707814013
+********
+epoch:5    time:9237
+train_loss:8.639068715785832
+********
+epoch:6    time:11091
+train_loss:8.625391595484878
+********
+epoch:7    time:12937
+train_loss:8.610779044660879
+********
+epoch:8    time:14786
+train_loss:8.59894697012834
+********
+epoch:9    time:16637
+train_loss:8.590551259139133
+********
+epoch:10    time:18491
+train_loss:8.582261252509305
+********
+epoch:11    time:20342
+train_loss:8.575680939654644
+********
+epoch:12    time:22191
+train_loss:8.568078545301294
+********
+epoch:13    time:24042
+train_loss:8.560353227935154
+********
+epoch:14    time:25890
+train_loss:8.554548201121115
+********
+epoch:15    time:27744
+train_loss:8.551519532333696
+********
+epoch:16    time:29594
+train_loss:8.543720619241865
+********
+epoch:17    time:31442
+train_loss:8.54014524263608
+********
+epoch:18    time:33293
+train_loss:8.5319028862946
+********
+epoch:19    time:35141
+train_loss:8.529188630475318
+********
+epoch:20    time:36991
+train_loss:8.521308589318208
+********
+epoch:21    time:38836
+train_loss:8.483264080077854
+********
+epoch:22    time:40680
+train_loss:8.47535958651578
+********
+epoch:23    time:42526
+train_loss:8.470956792409082
+********
+epoch:24    time:44369
+train_loss:8.465836856702245
+********
+epoch:25    time:46217
+train_loss:8.464336940523411

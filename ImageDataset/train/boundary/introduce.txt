@@ -1,0 +1,1 @@
+This is the storage path of the segmented boundary sample tiles
