@@ -1,5 +1,5 @@
 import argparse
-from train_framework import train_models
+from train_framework import train_model
 
 def main():
 
@@ -35,7 +35,7 @@ def main():
                         
     args = parser.parse_args()
     
-    train_models(train_path=args.train_path, save_path=args.save_path, batch_size=args.batch_size, num_epochs=args.num_epochs, use_pretrained=args.use_pretrained,
+    train_model(train_path=args.train_path, save_path=args.save_path, batch_size=args.batch_size, num_epochs=args.num_epochs, use_pretrained=args.use_pretrained,
                  pretrained_model_path=args.pretrained_model_path, augment_dataset=args.augment_dataset, momentum=args.momentum, weight_decay=args.weight_decay,stepsize=args.stepsize, gamma=args.gamma, lr=args.lr,itersize=args.itersize)
     
 if __name__ == "__main__":
