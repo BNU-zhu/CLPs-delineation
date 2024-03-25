@@ -17,7 +17,7 @@ from sklearn.model_selection import train_test_split
 from torch.autograd import Variable as V
 from Apollo_optimizer import Apollo
 
-def train_models(train_path, save_path, batch_size, num_epochs, use_pretrained, pretrained_model_path,
+def train_model(train_path, save_path, batch_size, num_epochs, use_pretrained, pretrained_model_path,
                  augment_dataset, momentum, weight_decay, stepsize, gamma, lr, itersize):
 
     mylog = Logger('logs/' + 'model.log')
