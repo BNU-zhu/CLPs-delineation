@@ -60,7 +60,7 @@ def weighted_cross_entropy_loss(inputs, label):
     cost = torch.nn.functional.binary_cross_entropy(
             inputs.float(),label.float(), weight=mask, reduce=False)
 
-    return cost.mean() #1.*torch.sum(cost)/10000
+    return cost.mean()
 
 class Boundary_Loss:
     def __init__(self):
