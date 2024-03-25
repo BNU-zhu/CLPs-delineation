@@ -40,4 +40,4 @@ python predict_region.py`<br>
 
 ## Pretrained weight
 Here we provide the pretrained model, which trained in Bincheng county:<br>
-[Google drive](https://drive.google.com/file/d/1RULXp_hifjleM-GavclJsPaLV042KwgS/view?usp=drive_link), and [Baidu Netdisk]([https://drive.google.com/file/d/1RULXp_hifjleM-GavclJsPaLV042KwgS/view?usp=drive_link](https://pan.baidu.com/s/1KUKZlVy4aicExLfoxhPhxg?pwd=bnu9 )https://pan.baidu.com/s/1KUKZlVy4aicExLfoxhPhxg?pwd=bnu9)
+[Google drive](https://drive.google.com/file/d/1RULXp_hifjleM-GavclJsPaLV042KwgS/view?usp=drive_link), and [Baidu Netdisk](https://pan.baidu.com/s/1KUKZlVy4aicExLfoxhPhxg?pwd=bnu9) (code:bnu9)
