@@ -9,11 +9,11 @@ def main():
     parser.add_argument("--batch_size", type=int, default=8, help="train batch size")
     parser.add_argument("--num_epochs", type=int, default=80, help="number of epochs")
     parser.add_argument(
-        "--use_pretrained", type=bool, default=False, help=" whether to use pretrained checkpoint."
+        "--use_pretrained", type=bool, default=True, help=" whether to use pretrained checkpoint."
     )
     parser.add_argument(
         "--pretrained_model_path", type=str,
-        default=None, help="If use_pretrained checkpoint, provide checkpoint pathway."
+        default='./pretrained_Bincheng.pt', help="If use_pretrained checkpoint, provide checkpoint pathway."
     )
     parser.add_argument(
         "--augment_dataset", type=bool,
