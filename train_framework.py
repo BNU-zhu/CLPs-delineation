@@ -37,10 +37,8 @@ def train_model(train_path, save_path, batch_size, num_epochs, use_pretrained, p
 
     epoch_start = "0"
     if use_pretrained:
-        print("Loading Model {}".format(os.path.basename(pretrained_model_path)))
+        print("Loading Pretrained Model {}".format(os.path.basename(pretrained_model_path)))
         model.load_state_dict(torch.load(pretrained_model_path))
-        epoch_start = os.path.basename(pretrained_model_path).split(".")[0]
-        print(epoch_start)
     
     if augment_dataset:
         trainLoader = DataLoader(
