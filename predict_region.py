@@ -182,8 +182,8 @@ for i in range(len(TifArray)):
         with torch.no_grad():
             outputs1, outputs2, outputs3 = model(image)
         pred = outputs1.detach().cpu().numpy().squeeze()
-        pred[pred>0.5] = 255
-        pred[pred<=0.5] = 0
+        pred[pred>0] = 255
+        pred[pred<=0] = 0
         #pred = pred * 255
         #print(pred)
         predicts.append((pred))
