@@ -1,5 +1,6 @@
 # A deep learning method for cultivated land parcels (CLPs) delineation with high-generalization capability
-The official PyTorch implementation of "A deep learning method for cultivated land parcels (CLPs) delineation with high-generalization capability".
+The official PyTorch implementation of "A deep learning method for cultivated land parcels (CLPs) delineation with high-generalization capability".<br>
+IEEE Trans. Geosci. Remote Sensing 62, 1–25. https://doi.org/10.1109/TGRS.2024.3425673
 
 
 ## Sample process
